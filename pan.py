@@ -4,6 +4,8 @@ def check(text):
 	return set(text.lower()).issuperset(set(abc))
 
 
-print 	check('abc')
+print 	(check('abc')== False)
+print (check('abcdefghijklmnopqrstuvwxyz')== True)
+
 
 

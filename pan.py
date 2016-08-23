@@ -1,3 +1,4 @@
+#Copyright unknwn 2016
 from string import ascii_lowercase as abc
 
 def check(text):
